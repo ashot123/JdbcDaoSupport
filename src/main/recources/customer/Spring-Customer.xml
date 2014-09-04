@@ -10,5 +10,6 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 	<!--<bean id="customerSimpleDAO" class="com.mkyong.customer.dao.impl.SimpleJdbcCustomerDAO">
 		<property name="dataSource" ref="dataSource" />
 	</bean>-->
-	
+
+
 </beans>
