@@ -136,6 +136,7 @@ public class JdbcCustomerDAO extends JdbcDaoSupport implements CustomerDAO {
 
         String sql = "SELECT COUNT(*) FROM CUSTOMER";
 
+        // Deprecated
         return getJdbcTemplate().queryForInt(sql);
     }
 
